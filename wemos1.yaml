@@ -24,7 +24,7 @@ ota:
 
 web_server:
   port: 80
-  
+#   REST API post http://wemos1.local/switch/brightness/turn_on
   
 #remote_receiver:
 #  pin: 
