@@ -10,7 +10,7 @@ wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Wemos1 Fallback Hotspot"
-    password: "xCecOreFsUzM"
+    password: "TomcioWy"
 
 captive_portal:
 
@@ -26,12 +26,12 @@ web_server:
   port: 80
   
   
-remote_receiver:
-  pin: 
-    number: D5
-    inverted: True
-    mode: INPUT_PULLUP
-  dump: raw
+#remote_receiver:
+#  pin: 
+#    number: D5
+#    inverted: True
+#    mode: INPUT_PULLUP
+#  dump: raw
 
 remote_transmitter:
   pin: D1
